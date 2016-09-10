@@ -18,13 +18,16 @@ board = "";
 size = 8;
 for (var n = 1; n <= size; n++) {
     for (var i = 1; i <= size; i++) {
-        if (i%2 !== 0) {
-            board = board + " ";
+        if ((n+i)%2 === 0) {
+            stamp = " "
+            board =+ stamp;
         } else {
-            board = board + "#";
+            stamp = "#"
+            board =+ stamp;
         }
         if (i === size) {
-            board = board + "\n";
+            stamp = "\n"
+            board =+ stamp;
         }
     }
 }
