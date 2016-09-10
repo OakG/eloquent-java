@@ -6,4 +6,4 @@ for (var n = 1; n <= 100; n++) {
     output += "Buzz";
   console.log(output || n);
 }
-// "Elegant" solution
+// "Elegant" solution.
