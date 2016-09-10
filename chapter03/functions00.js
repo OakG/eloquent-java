@@ -21,3 +21,5 @@ var power = function(base, exponent) {
 };
 
 console.log(power(2, 10));
+
+// return by itself will return undefined
