@@ -33,6 +33,6 @@ var recurPower = function(base, expoent) {
         return 1;
     else
         return base * recurPower(base, expoent - 1);
-}
+};
 
 console.log(recurPower(2,3));
