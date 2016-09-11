@@ -25,4 +25,14 @@ var power = function(base, exponent) {
 console.log(power(2, 10));
 console.log(power(4));
 
-// return by itself will return undefined
+// recursive function
+//usually slower, sometimes simpler
+//overuse leads to stack troubles
+var recurPower = function(base, expoent) {
+    if (expoent == 0)
+        return 1;
+    else
+        return base * recurPower(base, expoent - 1);
+}
+
+console.log(recurPower(2,3));
