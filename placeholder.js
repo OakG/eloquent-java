@@ -25,6 +25,7 @@ var power = function(base, exponent) {
 console.log(power(2, 10));
 console.log(power(4));
 
+///////////////////////////////////////
 // recursive function
 //usually slower, sometimes simpler
 //overuse leads to stack troubles
