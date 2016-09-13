@@ -19,14 +19,14 @@ size = 8;
 for (var n = 1; n <= size; n++) {
     for (var i = 1; i <= size; i++) {
         if ((n+i)%2 === 0) {
-            stamp = " "
+            stamp = " ";
             board =+ stamp;
         } else {
             stamp = "#"
             board =+ stamp;
         }
         if (i === size) {
-            stamp = "\n"
+            stamp = "\n";
             board =+ stamp;
         }
     }
