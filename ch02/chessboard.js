@@ -22,7 +22,7 @@ for (var n = 1; n <= size; n++) {
             stamp = " ";
             board =+ stamp;
         } else {
-            stamp = "#"
+            stamp = "#";
             board =+ stamp;
         }
         if (i === size) {
